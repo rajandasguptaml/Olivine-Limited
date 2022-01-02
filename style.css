@@ -1,0 +1,181 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins;
+}
+
+.header{
+    background-color: rgb(22, 104, 1);
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+}
+
+.header h5{
+    display: flex;
+    color: white;
+    width: 40%;
+}
+
+.size .container-fluid{
+    background-color: #f8f9fa;
+    box-shadow: 5px 5px 5px 5px  rgb(224, 224, 224);
+}
+
+.size.header .button{
+    color: #8E53A1;
+}
+
+.header .button .login{
+    border-radius: 10%;
+    font-size: small;
+    
+}
+
+.header .button .register{
+    border-radius: 10%;
+    font-size: small;
+    
+}
+
+body{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(image/body_bg.gif);
+    background-position: center;
+    position: relative;
+    overflow-x: hidden;
+};
+
+
+.next_nab{
+    border: none;
+    margin-bottom: 0;
+    min-height: 20px;
+    background-color: #3f3f3f;
+}
+
+.next_nab a{
+    color: rgb(2, 2, 2);
+    text-decoration: none;
+    font-size: 13px;
+    font-family: poppins;
+    background-color: beige;
+}
+
+.size{
+    padding-left: 16%;
+    padding-right: 16%;
+
+}
+
+.button .btn btn-primary{
+    display: flex;
+    padding-left: 75%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    justify-content: space-between;
+}
+
+.help{
+    font-size: 20px;
+    background-color: #ffffff;
+    font-weight: bold;
+    padding: 11px  15px;
+    border-left: 3px solid #8E53A1;
+   
+}
+
+.help h5{
+    color: #8E53A1;
+}
+
+.search{
+    padding-left: 48%;
+    
+}
+
+.cardshow{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+
+}
+
+.cardshow .card{
+    background-color: #8E53A1;
+
+}
+
+.top{
+    background-color: #f8f9fa;
+    padding: 07px;
+    margin: auto;
+    
+}
+
+.top.h5{
+    font-size: smaller;
+    color: #8E53A1;
+    background-color: #f8f9fa;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    max-width: 1020px
+;
+}
+
+.space{
+    padding-top: 20%;
+}
+
+.card-img-top{
+    height: 60px;
+    width: 60px;
+    align-items: center;
+}
+
+.cardsec{
+    width: 60%;
+
+} 
+
+
+.container-fluid .nav-links{
+    flex: 1;
+    text-align: left;
+    border: none;
+    text-decoration: none;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: poppins;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 100%;
+    height:2px;
+    background: #f44336;
+    display: block;
+    margin: auto; 
+    transition: 0.5s;   
+}
+
+.nav-links ul li:hover::after{
+    width: 100%;
+} 
+
+
+
